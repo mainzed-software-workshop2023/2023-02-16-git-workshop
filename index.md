@@ -76,7 +76,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Generelle Informationen</h2>
 
 {% comment %}
 INTRODUCTION
@@ -176,7 +176,7 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  Sie sollten einige spezielle Softwarepakete installiert haben, die <a href="#setup">unten</a>) aufgelistet sind.
+  Es sollten einige spezielle Softwarepakete installiert sein, die <a href="#setup">unten</a>) aufgelistet sind.
 </p>
 
 {% comment %}
@@ -188,11 +188,11 @@ special instructions.
 <p id="accessibility">
   <strong>Zugänglichkeit:</strong>
 {% if online == "false" %}
-  Wir bemühen uns diesen Workshop für alle zugänglich zu machen. Daher haben wir überprüft, dass:
+  Wir bemühen uns diesen Workshop für alle zugänglich zu machen. Daher haben wir überprüft, dass
 </p>
 <ul>
   <li>der Raum für Rollstuhlfahrer und Scooter zugänglich ist.</li>
-  <li>barrierefreie Toiletten sind vorhanden.</li>
+  <li>barrierefreie Toiletten vorhanden sind.</li>
 </ul>
 <p>
   Materials will be provided in advance of the workshop and

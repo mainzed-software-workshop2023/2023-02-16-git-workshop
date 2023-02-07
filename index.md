@@ -76,7 +76,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">Generelle Informationen</h2>
+<h2 id="general">Informationen zum Workshop</h2>
 
 {% comment %}
 INTRODUCTION

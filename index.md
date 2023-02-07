@@ -130,14 +130,14 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
+  Zum Erstellen einer Wegbeschreibung können Sie
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  oder
+  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a> nutzen.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Wo:</strong>
   online at <a href="{{page.address}}">{{page.address}}</a>.
   If you need a password or other information to access the training,
   the instructor will pass it on to you before the workshop.
@@ -156,7 +156,7 @@ This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
-  <strong>When:</strong>
+  <strong>Wann:</strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
 </p>
@@ -168,15 +168,15 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong>
+  <strong>Anforderungen:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Die Teilnehmenden müssen einen Laptop mit einem
+    Mac-, Linux- oder Windows-Betriebssystem (kein Tablet, Chromebook usw.) mitbringen, auf dem sie über administrative Rechte verfügen.
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  Sie sollten einige spezielle Softwarepakete installiert haben, die <a href="#setup">unten</a>) aufgelistet sind.
 </p>
 
 {% comment %}
@@ -186,14 +186,13 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Accessibility:</strong>
+  <strong>Zugänglichkeit:</strong>
 {% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
+  Wir bemühen uns diesen Workshop für alle zugänglich zu machen. Daher haben wir überprüft, dass:
 </p>
 <ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>der Raum für Rollstuhlfahrer und Scooter zugänglich ist.</li>
+  <li>barrierefreie Toiletten sind vorhanden.</li>
 </ul>
 <p>
   Materials will be provided in advance of the workshop and
@@ -216,8 +215,8 @@ CONTACT EMAIL ADDRESS
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
-  <strong>Contact:</strong>
-  Please email
+  <strong>Kontakt:</strong>
+  Bitte
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
@@ -232,13 +231,12 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
+  für mehr Informationen mailen.
 </p>
 
 <p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+  <strong>Rollen:</strong>
+  Mehr Informationen über die Rollen beim Workshop (wer was macht) sind zu finden in den <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Workshop FAQ der Carpentries</a>.
 </p>
 
 {% comment %}

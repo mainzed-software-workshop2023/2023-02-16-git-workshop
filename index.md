@@ -305,8 +305,8 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<h2 id="surveys">Umfragen</h2>
+<p>Die Teilnehmenden werden gebeten, die folgenden Umfragen vor und nach dem Workshop auszufüllen.</p>
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
@@ -349,7 +349,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Programm</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -390,7 +390,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  Um an einem 
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -398,14 +398,13 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  Workshop teilzunehmen,
+  wird Zugang zu der im Folgendem beschriebenen Software benötigt.
+  Darüber hinaus ist ein aktueller Webbrowser notwendig.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  Auf der Wiki-Seite <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions</a> 
+  sind häufige Probleme aufgelistet, die während der Installation auftreten und für Lehrkräfte nützlich sein können.
 </p>
 
 {% comment %}

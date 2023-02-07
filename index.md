@@ -130,10 +130,10 @@ address.
 <p id="where">
   <strong>Wo:</strong>
   {{page.address}}.
-  Zum Erstellen einer Wegbeschreibung können Sie
+  Eine Wegbeschreibung kann mit
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   oder
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a> nutzen.
+  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a> erstellt werden.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
@@ -236,7 +236,7 @@ Display the contact email address set in the configuration file.
 
 <p id="roles">
   <strong>Rollen:</strong>
-  Mehr Informationen über die Rollen beim Workshop (wer was macht) sind zu finden in den <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Workshop FAQ der Carpentries</a>.
+  Mehr über die Rollen beim Workshop (wer was macht) sind zu finden in den <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Workshop FAQ der Carpentries</a>.
 </p>
 
 {% comment %}

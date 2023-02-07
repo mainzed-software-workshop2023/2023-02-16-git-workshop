@@ -128,7 +128,7 @@ address.
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Wo:</strong>
   {{page.address}}.
   Zum Erstellen einer Wegbeschreibung können Sie
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
@@ -137,7 +137,7 @@ address.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
-  <strong>Wo:</strong>
+  <strong>Where:</strong>
   online at <a href="{{page.address}}">{{page.address}}</a>.
   If you need a password or other information to access the training,
   the instructor will pass it on to you before the workshop.

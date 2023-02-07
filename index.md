@@ -404,7 +404,7 @@ please preview your site before committing, and make sure to run
 </p>
 <p>
   Auf der Wiki-Seite <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions</a> 
-  sind häufige Probleme aufgelistet, die während der Installation auftreten und für Lehrkräfte nützlich sein können.
+  sind häufige Probleme aufgelistet, die während der Installation auftreten und für Instruktoren nützlich sein können.
 </p>
 
 {% comment %}

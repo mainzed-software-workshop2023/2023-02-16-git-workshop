@@ -268,12 +268,12 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Alle, die an den Aktivitäten von Carpentries teilnehmen, müssen sich an den <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a> halten. In diesem Dokument wird auch beschrieben, wie man einen Vorfall bei Bedarf melden kann.
 </p>
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+    <button type="button" class="btn btn-info">Meldung eines Code of Conduct Vorfalls</button>
   </a>
 </p>
 <hr/>

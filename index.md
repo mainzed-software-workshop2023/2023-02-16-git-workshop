@@ -176,7 +176,7 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  Es sollten einige spezielle Softwarepakete installiert sein, die <a href="#setup">unten</a>) aufgelistet sind.
+  Es sollten einige spezielle Softwarepakete installiert sein, die <a href="#setup">unten</a> aufgelistet sind.
 </p>
 
 {% comment %}
@@ -216,7 +216,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Kontakt:</strong>
-  Bitte
+  Fragen können an 
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
@@ -231,7 +231,7 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  für mehr Informationen mailen.
+  gemailt werden.
 </p>
 
 <p id="roles">

@@ -63,7 +63,10 @@ This block includes the Eventbrite registration widget if
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
+
+{% comment %}
 {% if page.eventbrite %}
+{% endcomment %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
@@ -73,7 +76,9 @@ displayed if the 'eventbrite' field in the header is not set.
   height="280px"
   scrolling="auto">
 </iframe>
+{% comment %}
 {% endif %}
+{% endcomment %}
 
 
 <h2 id="general">Informationen zum Workshop</h2>

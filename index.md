@@ -70,7 +70,7 @@ displayed if the 'eventbrite' field in the header is not set.
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://survey.zdv.uni-mainz.de/index.php/581447?lang=de"
   frameborder="0"
   width="100%"
   height="280px"

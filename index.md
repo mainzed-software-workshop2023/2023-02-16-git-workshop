@@ -64,11 +64,18 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 
-{% comment %}
 {% if page.eventbrite %}
-{% endcomment %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
+<iframe
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  frameborder="0"
+  width="100%"
+  height="280px"
+  scrolling="auto">
+</iframe>
+{% endif %}
+
 <iframe
   src="https://survey.zdv.uni-mainz.de/index.php/581447?lang=de"
   frameborder="0"
@@ -76,9 +83,6 @@ displayed if the 'eventbrite' field in the header is not set.
   height="280px"
   scrolling="auto">
 </iframe>
-{% comment %}
-{% endif %}
-{% endcomment %}
 
 
 <h2 id="general">Informationen zum Workshop</h2>

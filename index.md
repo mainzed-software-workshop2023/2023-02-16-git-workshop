@@ -76,15 +76,6 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
-<iframe
-  src="https://survey.zdv.uni-mainz.de/index.php/581447?lang=de"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-
-
 <h2 id="general">Informationen zum Workshop</h2>
 
 {% comment %}

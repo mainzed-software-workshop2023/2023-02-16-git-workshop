@@ -76,7 +76,9 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
-<img src="fig/banner.png">
+<div class="row">
+  <img src="fig/banner.png">
+</div>
 
 <h2 id="general">Informationen zum Workshop</h2>
 

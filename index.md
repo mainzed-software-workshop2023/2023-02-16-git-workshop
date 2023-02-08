@@ -77,7 +77,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 <div class="row">
-  <img src="fig/banner.png">
+  <img style="image-rendering: auto" src="fig/banner.png">
 </div>
 
 <h2 id="general">Informationen zum Workshop</h2>

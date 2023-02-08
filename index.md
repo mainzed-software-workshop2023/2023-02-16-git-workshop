@@ -194,6 +194,7 @@ special instructions.
   <li>der Raum für Rollstuhlfahrer und Scooter zugänglich ist.</li>
   <li>barrierefreie Toiletten vorhanden sind.</li>
 </ul>
+{% comment %}
 <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
@@ -202,6 +203,7 @@ special instructions.
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+{% endcomment %}
 {% else %}
   We are dedicated to providing a positive and accessible learning environment for all. Please
   notify the instructors in advance of the workshop if you require any accommodations or if there is

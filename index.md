@@ -76,13 +76,6 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
-<h2 id="registration">Anmeldung</h2>
-
-<p>
-  Die Teilnahme am Workshop ist auf 20 Plätze begrenzt. 10 dieser Plätze sind für Angeörige 
-  von mainzed-Institutionen reserviert. Also schnell sein und anmelden unter folgendem <a href="https://survey.zdv.uni-mainz.de/index.php/581447?lang=de">Link</a>.
-</p>
-
 <h2 id="general">Informationen zum Workshop</h2>
 
 {% comment %}
@@ -102,6 +95,13 @@ the pitch.
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}
+
+<h2 id="registration">Anmeldung</h2>
+
+<p>
+  Die Teilnahme am Workshop ist auf 20 Plätze begrenzt. 10 dieser Plätze sind für Angeörige 
+  von mainzed-Institutionen reserviert. Also schnell sein und anmelden unter folgendem <a href="https://survey.zdv.uni-mainz.de/index.php/581447?lang=de">Link</a>.
+</p>
 
 {% comment %}
 AUDIENCE

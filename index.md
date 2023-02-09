@@ -359,9 +359,9 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-{% comment %}
-
 <h2 id="schedule">Programm</h2>
+
+{% comment %}
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}

@@ -401,7 +401,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   Workshop teilzunehmen,
-  wird Zugang zu der im Folgendem beschriebenen Software benötigt.
+  wird Zugang zu der im Folgenden beschriebenen Software benötigt.
   Darüber hinaus ist ein aktueller Webbrowser notwendig.
 </p>
 <p>

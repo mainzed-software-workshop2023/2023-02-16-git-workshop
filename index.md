@@ -76,6 +76,13 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<h2 id="registration">Anmeldung</h2>
+
+<p>
+  Die Teilnahme am Workshop ist auf 20 Plätze begrenzt. 10 dieser Plätze sind für Angeörige 
+  von mainzed-Institutionen reserviert. Also schnell sein und anmelden unter folgendem <a href="https://survey.zdv.uni-mainz.de/index.php/581447?lang=de">Link</a>.
+</p>
+
 <h2 id="general">Informationen zum Workshop</h2>
 
 {% comment %}

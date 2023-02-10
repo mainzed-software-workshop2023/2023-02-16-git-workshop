@@ -361,6 +361,8 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Programm</h2>
 
+<p>Informationen zum genauen Programm folgen bald.</p>
+
 {% comment %}
 
 {% if site.carpentry == "swc" %}

@@ -191,7 +191,7 @@ special instructions.
   Wir bemühen uns diesen Workshop für alle zugänglich zu machen. Daher haben wir überprüft, dass
 </p>
 <ul>
-  <li>der Raum für Rollstuhlfahrer und Scooter zugänglich ist.</li>
+  <li>der Raum für Rollstuhlfahrende und Scooter zugänglich ist.</li>
   <li>barrierefreie Toiletten vorhanden sind.</li>
 </ul>
 {% comment %}

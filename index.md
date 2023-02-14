@@ -238,7 +238,7 @@ Display the contact email address set in the configuration file.
 
 <p id="roles">
   <strong>Rollen:</strong>
-  Mehr über die Rollen beim Workshop (wer was macht) sind zu finden in den <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Workshop FAQ der Carpentries</a>.
+  Mehr über die Rollen beim Workshop (wer übernimmt was) sind zu finden in den <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Workshop FAQ der Carpentries</a>.
 </p>
 
 {% comment %}

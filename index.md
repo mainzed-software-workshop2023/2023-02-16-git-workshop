@@ -266,8 +266,7 @@ Edit the text to match who can attend the workshop. For instance:
 <h2 id="registration">Anmeldung</h2>
 
 <p>
-  Die Teilnahme am Workshop ist auf 20 Plätze begrenzt. Zehn dieser Plätze sind für Angehörige 
-  von mainzed-Institutionen reserviert. Um Anmeldung unter diesem <a href="https://survey.zdv.uni-mainz.de/index.php/581447?lang=de">Link</a> wird bis zum 15. März 2023 gebeten.
+  Anmeldung geschlossen.
 </p>
 
 <hr/>

@@ -266,7 +266,7 @@ Edit the text to match who can attend the workshop. For instance:
 <h2 id="registration">Anmeldung</h2>
 
 <p>
-  Anmeldung geschlossen.
+  <b>Update 23.03.:</b> Aufgrund der Warnstreiks am 27.03. findet der Workshop nicht wie geplant in Mainz, sondern <b>online über Zoom</b> statt. <b><a href="https://survey.zdv.uni-mainz.de/index.php/581447?lang=de">Bei Interesse können Sie sich weiterhin hier anmelden.</a></b> Der Link zum Zoom-Raum wird Ihnen danach mitgeteilt.
 </p>
 
 <hr/>
